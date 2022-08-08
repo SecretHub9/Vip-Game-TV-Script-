@@ -1,0 +1,14 @@
+local children = workspace.Hoops:GetChildren()
+
+for i, child in ipairs(children) do
+
+    if child.Name == "Hoop" then 
+
+child.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+
+    end    
+
+end
+
+--Menu--
+ loadstring(Game:HttpGet("https://pastebin.com/raw/0A4J7V8M"))()
